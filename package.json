@@ -1,0 +1,29 @@
+{
+  "name": "easyemit",
+  "version": "0.1.0",
+  "description": "An easy-to-use event emitter for Deno & Node.js",
+  "main": "index.min.js",
+  "scripts": {
+    "test": "deno test src/mod_test.ts",
+    "build": "deno bundle src/mod.ts index.min.js",
+    "prepublishOnly": "npm run build"
+  },
+  "author": "Reuben Tier",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TheOtterlord/easyemit.git"
+  },
+  "bugs": {
+    "email": "otterlord.dev@gmail.com",
+    "url": "https://github.com/TheOtterlord/easyemit/issues"
+  },
+  "homepage": "https://github.com/TheOtterlord/easyemit",
+  "keywords": [
+    "event",
+    "emitter",
+    "deno",
+    "node",
+    "easyemit"
+  ],
+  "license": "MIT"
+}
